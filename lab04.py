@@ -121,6 +121,7 @@ def inferencia_autoregressiva():
                 palavras_geradas.append("<EOS>") 
             break
             
+            
     return palavras_geradas
 
 resultado = inferencia_autoregressiva()
