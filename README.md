@@ -3,11 +3,12 @@
 O dataset utilizado foi "multi30k", link: https://huggingface.co/datasets/bentrevett/multi30k
 
 usei esse comando para ter acesso ao mesmo:
-'''
+
+---
 from datasets import load_dataset
 
 ds = load_dataset("bentrevett/multi30k")
-'''
+---
 
 
 ## Uso de Inteligência Artificial e Adaptações
