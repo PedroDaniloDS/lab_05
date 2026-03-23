@@ -1,5 +1,15 @@
 # laboratorio 05: Treinamento Fim-a-Fim do Transformer
 
+O dataset utilizado foi "multi30k", link: https://huggingface.co/datasets/bentrevett/multi30k
+
+usei esse comando para ter acesso ao mesmo:
+'''
+from datasets import load_dataset
+
+ds = load_dataset("bentrevett/multi30k")
+'''
+
+
 ## Uso de Inteligência Artificial e Adaptações
 
 utilizei IA para agilizar a importação do dataset e a configuração da tokenização (Tarefas 1 e 2). 
